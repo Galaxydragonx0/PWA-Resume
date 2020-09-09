@@ -1,31 +1,47 @@
+body{
+  color: #e94560;
+  background-color: #16213e;
+  /* https://colorhunt.co/palette/201882 */
+}
+
+a{
+  text-decoration: none;
+
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap");
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* HEADER STYLING  */
+.header{
+  
+  margin: 5rem auto 5rem auto;
+  padding-top: 7rem;
+  padding-bottom: 11rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
 }
 
-.App-link {
-  color: #61dafb;
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+p{
+  font-family: 'Merriweather', serif;
 }
 
 @keyframes App-logo-spin {

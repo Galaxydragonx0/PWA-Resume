@@ -3,7 +3,7 @@ import Education from './Education';
 
 
 
-const Experience = () => {
+const Experience = (props) => {
 
     return(
         <div className='exp'>

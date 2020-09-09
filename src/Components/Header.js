@@ -4,8 +4,8 @@ const Header = (props) =>{
 
     return (
         <div className="header">
-            <h1>I'm Andrew</h1>
-            <h2>Student and Developer</h2>
+            <h1 id='my-name'>I'm Andrew Sieupresad</h1>
+            <h2 id='tag-line'>Student and Developer</h2>
         </div>
     )
 
