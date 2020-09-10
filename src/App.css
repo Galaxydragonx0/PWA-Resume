@@ -1,26 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap");
+
+
 body{
-  color: #e94560;
-  background-color: #16213e;
+  color: #cf1b1b;
+  background-color: #2b2e4a;
   /* https://colorhunt.co/palette/201882 */
 }
 
 a{
   text-decoration: none;
-
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap");
-
-.App {
-  text-align: center;
-}
-
-/* HEADER STYLING  */
-.header{
-  
-  margin: 5rem auto 5rem auto;
-  padding-top: 7rem;
-  padding-bottom: 11rem;
+  color: #11999E;
 }
 
 h1{
@@ -38,17 +27,118 @@ h3{
   font-family: 'Montserrat', sans-serif;
   font-size: 1.6rem;
   font-weight: normal;
+  color: #11999E;
 }
 
 p{
   font-family: 'Merriweather', serif;
+  /* color: #11999E; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.App {
+  text-align: center;
 }
+
+.btn:hover{
+  cursor: pointer;
+}
+
+/* HEADER SECTION STYLING  */
+.header{
+  
+  margin: 5rem auto 5rem auto;
+  padding-top: 7rem;
+  padding-bottom: 10rem;
+}
+
+
+
+/* EDUCATION SECTION STYLING  */
+.education-section{
+  
+  margin: 0rem auto 5rem auto;
+  /* padding-top: 7rem; */
+  padding-bottom: 11rem;
+  width: 50%;
+}
+
+.edu-btn{
+  text-decoration: none;
+  border: solid #11999E;
+  border-radius: 0.4rem;
+  padding: .5rem;
+}
+
+#new-edu-section{
+  margin-top: 4rem;
+}
+
+
+/* EXPERIENCE SECTION STYLING  */
+
+.exp-container{
+  padding-bottom: 10rem;
+}
+
+.exp-section{
+  margin: 0rem auto 2rem auto;
+  /* padding-top: 7rem; */
+  padding-bottom: 1.5rem;
+  width: 50%;
+
+}
+
+/* SKILLS SECTION STYLING  */
+.skills-section{
+  margin: 0rem auto 5rem auto;
+  padding-top: 4rem;
+  padding-bottom: 13rem;
+  width: 50%;
+
+}
+
+
+/* CONTACT-ME SECTION STYLING  */
+
+.contact-me{
+  line-height: 2;
+}
+
+.btn{
+  text-decoration: none;
+  border: solid #11999E;
+  border-radius: .5rem;
+  padding: .5rem;
+}
+
+#form-section{
+  margin-top: 4.5rem;
+}
+
+
+
+
+/* FOOTER SECTION STYLING  */
+.footer{
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  /* margin-bottom: 2rem; */
+  background-color: #53354a;
+} 
+
+.footer-link{
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.end{
+  margin-bottom: 0;
+}
+
+
+
+
+

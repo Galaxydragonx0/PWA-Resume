@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom'; 
 import NewSection from './NewSection';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
 
 const Education = (props) => {
 
@@ -17,7 +19,7 @@ const Education = (props) => {
                 Caribbean Advanced Profiency Examination (CAPE) - Passes in Pure Maths, Biology, Chemistry, Caribbean and Communication Studies
                 Caribbean Secindary Education Certificate (CSEC) - Grade 1 in 8 subjects
                 </p>
-            <div id="new-section"><button  onClick={props.click}>+</button></div>
+            <div id="new-edu-section"><a className='edu-btn'  onClick={props.click}><FontAwesomeIcon icon={faPlus}/></a></div>
 
         </div>
 
