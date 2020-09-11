@@ -8,7 +8,6 @@ const Experience = (props) => {
 
     return(
 
-        // props.map(renderExperienceSection)
         <div className='exp-section'>
 
             <h3>{props.business}</h3> 
